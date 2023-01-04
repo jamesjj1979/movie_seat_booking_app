@@ -1,21 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Booking APP UI</title>
-    <link rel="stylesheet" href="global.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="global.css" />
+  </head>
+  <body>
+    <div class="movie-container">
+      <label>Pick a movie:</label>
+      <select id="movie">
+        <option value="10">Avengers: Endgame ($10)</option>
+        <option value="12">Ironman 2 ($12)</option>
+        <option value="8">Thor: The dark world ($8)</option>
+        <option value="9">Black Panther ($9)</option>
+      </select>
+    </div>
 
+<ul class="showcase">
+    <li>
+        <div class="seat selected"></div>
+        <small>N/a</small>
+    </li>
+    <li>
+        <div class="seat"></div>
+        <small>selected</small>
+    </li>
+    <li>
+        <div class="seat occupied"></div>
+        <small>occupied</small>
+    </li>
+</ul>
 
+<div class="container">
+<div class="screen">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+</div>
+<div class="screen">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat occupied"></div>
+    <div class="seat occupied"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+</div>
+<div class="screen">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat occupied"></div>
+    <div class="seat occupied"></div>
+</div>
+<div class="screen">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+</div>
+<div class="screen">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat occupied"></div>
+    <div class="seat occupied"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+</div>
+<div class="screen">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat occupied"></div>
+    <div class="seat occupied"></div>
+    <div class="seat occupied"></div>
+    <div class="seat"></div>
+</div>
+</div>
 
-
-
-
-
-    <script src="./global.js"></script>
-</body>
+    <script src="global.js"></script>
+  </body>
 </html>
